@@ -136,3 +136,5 @@ Ahora vamos hacer una reserva dentro de los rangos puesto en cualquiera de los d
 Como podemos comprobar, con el superámbito creado y los dos ámbitos activos, funciona correctamente.
 
 ![imagen](./img/28.png)
+
+---
