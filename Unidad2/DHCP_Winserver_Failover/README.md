@@ -46,7 +46,7 @@ Finalizamos la instalación y vemos como el registro nos indica que el proceso d
 
 ---
 
-# 3. Comprobaciones<a name="1"></a>
+# 3. Comprobaciones<a name="3"></a>
 
 Vamos a comprobar que el Failover funciona correctamente. Primero hacemos la prueba en el cliente con el servidor DHCP principal en funcionamiento:
 
