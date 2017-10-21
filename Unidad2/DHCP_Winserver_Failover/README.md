@@ -1,11 +1,11 @@
 ﻿
 >Práctica Realizada por:
 >
->[Carlos]
+>[Carlos Delgado Hernández](https://github.com/carlsjdh)
 >
->[Carmelo González Domínguez]
+>[Carmelo González Domínguez](https://github.com/SilverGG)
 >
->[Víctor García Luis]
+>[Víctor García Luis](https://github.com/victorvgl)
 
 # DHCP Failover Windows Server 2012
 
