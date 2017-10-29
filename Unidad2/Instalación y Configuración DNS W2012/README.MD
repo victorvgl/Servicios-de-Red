@@ -6,8 +6,8 @@
 
 ---
 - [Configuración del servidor DNS](#1)
-- [Registros a la zona de Búsqueda directa](2)
-- [Configuración y comprobación desde el cliente](3)
+- [Registros a la zona de Búsqueda directa](#2)
+- [Configuración y comprobación desde el cliente](#3)
 
 
 ### Objetivo:
