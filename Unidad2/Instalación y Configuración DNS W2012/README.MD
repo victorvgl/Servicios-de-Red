@@ -170,7 +170,7 @@
 
 ![imagen](./img/112.png)
 
-# 3. Cliente
+# 3. Cliente <a name="3"></a>
 
 + Le ponemos una IP fija al cliente para tenerlo identificado más facilmente desde el servidor. Le añadimos la IP del servidor como DNS.
 
