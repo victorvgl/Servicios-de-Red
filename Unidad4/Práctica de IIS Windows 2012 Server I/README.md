@@ -201,7 +201,7 @@
 
 ---
 
-# <a name="2"></a> 3. IIS Windows 2012 Server III
+# <a name="3"></a> 3. IIS Windows 2012 Server III
 
 + Creamos la carpeta Departamentos y dentro de esta otras tres llamadas administración, contabilidad e informática. Le ponemos un index de prueba en cada una de ellas.
 
