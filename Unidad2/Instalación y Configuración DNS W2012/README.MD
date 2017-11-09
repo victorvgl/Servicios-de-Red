@@ -5,13 +5,17 @@
 ![imagen](./img/portada.jpg)
 
 ---
+- [Configuración del servidor DNS](#1)
+- [Registros a la zona de Búsqueda directa](#2)
+- [Configuración y comprobación desde el cliente](#3)
+
 
 ### Objetivo:
 
 + Vamos a configurar un servidor DNS en Window 2012 Server con una zona de búsqueda directa para el servidor y una zona inversa para la subred. Tendremos que tener acceso a internet desde el cliente teniendo en este, la IP del  servidor como DNS.
 
 
-# 1. Configuración del Servidor DNS
+# 1. Configuración del Servidor DNS <a name="1"></a>
 
 + Le ponemos una IP Fija al servidor y como DNS nuestra propia IP.
 
@@ -106,7 +110,7 @@
 
 ![imagen](./img/020.png)
 
-# 2. Añadir registros a la zona de búsqueda directa
+# 2. Añadir registros a la zona de búsqueda directa<a name="2"></a>
 
 
 + Añadimos un registro de dirección de host para asignar un nombre de dominio DNS a una dirección IP.
@@ -166,7 +170,7 @@
 
 ![imagen](./img/112.png)
 
-# 3. Cliente
+# 3. Cliente <a name="3"></a>
 
 + Le ponemos una IP fija al cliente para tenerlo identificado más facilmente desde el servidor. Le añadimos la IP del servidor como DNS.
 
@@ -184,3 +188,5 @@
 
 
 ![imagen](./img/202.png)
+
+---
