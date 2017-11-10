@@ -229,16 +229,23 @@
 
 ![imagen](./img/205.png)
 
++ Vamos a Exámen de directorios
+
+![imagen](./img/209.png)
+
+
++ Habilitamos el exámen de directorios para que nos liste las carpetas virtuales.
+
+![imagen](./img/210.png)
+
 
 + Probamos que podemos acceder correctamente y ver lo añadido en el index.html
 
+![imagen](./img/211.png)
+
 ![imagen](./img/206.png)
 
-
-
-
 ![imagen](./img/207.png)
-
 
 ![imagen](./img/208.png)
 
