@@ -249,4 +249,8 @@
 
 ![imagen](./img/208.png)
 
++ Comprobamos que podemos acceder desde el cliente
+
+![imagen](./img/212.png)
+
 ---
