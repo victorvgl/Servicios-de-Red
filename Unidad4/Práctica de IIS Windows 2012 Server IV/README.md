@@ -11,7 +11,7 @@ dominio miEmpresa y crearemos  la carpeta Miempresa con una subcarpeta
 llamada principal.
 
 + Crearemos un nuevo sitio Web denominado miEmpresa asociado a la carpeta creada
-anteriormente con acceso a través de la dirección "www.miEmpresa.com".
+anteriormente con acceso a través de la dirección (www.miEmpresa.com)
 
 + Crearemos un sitio web denominado "pagos" como subdominio de miEmpresa (pagos.miEmpresa.com) y configuraremos este último para ser accedido de forma segura, vía ‘https’ con un certificado autofirmado.
 
@@ -337,3 +337,55 @@ un Certificado Digital a través de la aplicación OpenSSL.
 + Ahora tenemos que deshabilitar las herencias antes de dar los permisos para que cada empleado acceda a su carpeta y todo puedan acceder a `personal`
 
 ![imagen](./img/071.png)
+
+
+![imagen](./img/072.png)
+
+
++ Para la carpeta empleados añadimos el grupo Administradores con control total y empleados creado anteriormente.
+
+
+![imagen](./img/073.png)
+
+
+![imagen](./img/074.png)
+
++ Ahora vamos a añadir el usuario a su carpeta correspondiente para que solo tenga acceso él y el administrador.
+
+
+![imagen](./img/075.png)
+
+
+![imagen](./img/076.png)
+
++ Hacemos lo mismo con los demás usuarios
+
+
+![imagen](./img/080.png)
+
++ Añadimos el grupo empleados a la carpeta personal para que todos los usuarios tengan acceso con su login a esta carpeta.
+
+![imagen](./img/081.png)
+
+## 2.3 Comprobaciones
+
++ Comprobamos que podemos acceder con el usuario y password.
+
+
+![imagen](./img/085.png)
+
+![imagen](./img/086.png)
+
++ Comprobamos que no nos pide contraseña en la página principal creada en esta práctica y vemos las carpetas creadas en los pasos anteriores.
+
+![imagen](./img/088.png)
+
++ Comprobamos el acceso desde el cliente.
+
+![imagen](./img/089.png)
+
+![imagen](./img/090.png)
+
+![imagen](./img/091.png)
+
+---
