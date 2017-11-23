@@ -13,12 +13,18 @@ llamada principal.
 + Crearemos un nuevo sitio Web denominado miEmpresa asociado a la carpeta creada
 anteriormente con acceso a través de la dirección "www.miEmpresa.com".
 
-+ Haremos un sitio web denominado "pagos" como subdominio de miEmpresa (pagos.miEmpresa.com) y configuraremos este último para ser accedido de forma segura, vía ‘https’ con un certificado autofirmado.
++ Crearemos un sitio web denominado "pagos" como subdominio de miEmpresa (pagos.miEmpresa.com) y configuraremos este último para ser accedido de forma segura, vía ‘https’ con un certificado autofirmado.
 
-+ Haremos un nuevo sitio seguro (tienda.miempresa.com) con la generación de
++ Crearemos un nuevo sitio seguro (tienda.miempresa.com) con la generación de
 un Certificado Digital a través de la aplicación OpenSSL.
 
 ### [Práctica de IIS Windows 2012 Server IV B](#2)
+
++ Vamos  a  crear  un  nuevo  sitio  web  (empleados.miEmpresa.com) destinado a almacenar información privada de los empleados.
+
++ Crearemos carpetas privadas para cada usuario y una para todos los empleados
+
++ Los usuarios serán creados en Active directory con el nombre correspondiente de su carpeta de acceso.
 
 
 ---
@@ -267,3 +273,67 @@ un Certificado Digital a través de la aplicación OpenSSL.
 
 
 ![imagen](./img/052.png)
+
+# <a name="2"></a>  2. IIS Windows 2012 Server IV B
+
++ Necesitamos  crear  una  carpeta  empleados  (dentro  de  miEmpresa)  y,  dentro  de  esta,  tres o cuatro subcarpetas personales con nombres de empleados y una, denominada común, a la que tendrán acceso todos los empleados, pero no otros usuarios sin identificar.
+
+![imagen](./img/055.png)
+
++ Crearemos  el  nuevo  sitio  web,  como  subdominio  de  nuestro  dominio  principal,  asociado a la carpeta genérica empleados.
+
+![imagen](./img/053.png)
+
++ Le añadimos un registro host
+
+![imagen](./img/054.png)
+
++ Agregamos un nuevo sitio web `empleados.miempresa.com`
+
+![imagen](./img/056.png)
+
++ Activamos el `exámen de directorios` y comprobamos el acceso.
+
+![imagen](./img/057.png)
+
++ Añadimos un `index.html` en cada subcarpeta y comprobamos su acceso.
+
+![imagen](./img/058.png)
+
+![imagen](./img/059.png)
+
+![imagen](./img/060.png)
+
+![imagen](./img/061.png)
+
+## 2.1 Autenticación
+
++ Ahora vamos a modificar en el servicio ISS la Autentificación anónima y básica.
+
+![imagen](./img/062.png)
+
++ Le ponemos a empleados, la `Autenticación anónima deshabilitada` y la `Autenticación básica` Habilitada.
+
+![imagen](./img/093.png)
+
+## 2.2 Usuario en Active Directory
+
++ Vamos al servicio de Active Directory
+
+![imagen](./img/065.png)
+
++ Creamos los Usuario anteriormente nombrados en las carpetas.
+
+![imagen](./img/067.png)
+
++ Creamos el grupo empleados.
+
+ ![imagen](./img/069.png)
+
+ + Añadimos al grupo empleados los usuarios creados anteriormente.
+
+![imagen](./img/070.png)
+
++ Ahora tenemos que deshabilitar las herencias antes de dar los permisos para que cada empleado acceda a su carpeta y todo puedan acceder a `personal`
+
+![imagen](./img/071.png)
