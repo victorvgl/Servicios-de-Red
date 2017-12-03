@@ -184,57 +184,49 @@ y realizamos la instalación.
 
 ![imagen](./img/22_web_ftp_server.png)
 
++ Antes de instalar `Drupal` dentro de nuestro servidor web, es necesario introducir dentro de nuestra base de datos la base de datos `cms` y el usuario `cms` con todos los privilegios.
 
+![imagen](./img/base_dedatos_cms.png)
 
+![imagen](./img/privilegios.png)
+
++ Una vez realizado el anterior proceso, procedemos a preparar al servidor web para crear una nueva URL `www.webcms.com` donde se alojará el `cms`. Los archivos han sido previamente descargados de la página web oficial <a href="https://www.drupal.org/"> Drupal </a> y se almacenarán en la correspondiente carpeta asociada a la URL `www.webcms.com`.
+***NOTA: Es importante comprobar la compatibilidad entre la versión de Drupal y PHP.***
+
++ A continuación, al acceder a la página web realizamos la correspondiente
+configuración inicial del `cms`.
 
 ![imagen](./img/24_español_drupal.png)
 
 
-
++ Drupal nos iniciará con un error de configuración cuya solución consiste en otorgar permiso de acceso a `Todos` a la carpeta `Drupal` asociada a la web.
 
 ![imagen](./img/26_error_drupal.png)
 
+![imagen](./img/26_permisos_drupal_solución_error.png)
 
-
++ Instalamos y activamos el modulo `gtranslate`.
 
 ![imagen](./img/26_gtranslate.png)
 
 
-
-
-![imagen](./img/26_permisos_drupal_solución_error.png)
-
-
-
-
 ![imagen](./img/27_activar_multi.png)
 
-
++ Instalamos temas (Finalmente seleccionamos `Marinelli` como predeterminado)
 
 
 ![imagen](./img/28_temas.png)
 
 
-
++ Seleccionamos dentro de `Bloques` el menu principal situado en `Topbar`.
 
 ![imagen](./img/29_bloques.png)
 
 
-
++ Creamos varias paginas con el patrón `PáginaX`.
 
 ![imagen](./img/30_crear_pagina.png)
 
-
-
++ Dentro del menu activado anteriormente en `Bloques`, podremos acceder a las diferentes páginas creadas.
 
 ![imagen](./img/31_menu_paginas.png)
-
-
-
-
-![imagen](./img/base_dedatos_cms.png)
-
-
-
-
-![imagen](./img/privilegios.png)
