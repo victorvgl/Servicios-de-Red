@@ -11,29 +11,21 @@
 
 # Apache Linux
 
-![imagen](./img/hqdefault-e1484652166844.jpg)
+![imagen](./img/000.jpg)
 
 
 # Introducción
 
-+ Vamos a realizar las instalaciones y configuraciones necesarias para obtener un Servidor Web con
++ Vamos a realizar las instalaciones y configuraciones necesarias para obtener un Servidor Web Ubuntu con
 soporte PHP y accesos a bases de datos relacionales, gestor de bases de datos.
 Sobre este servidor, podremos realizar instalaciones de aplicaciones integradas (CMS, e-commerce, etc)
 
-+ Crearemos un nuevo sitio Web denominado miEmpresa asociado una carpeta
++ Crearemos un nuevo sitio Web denominado miEmpresa asociado a una carpeta
  con acceso a través de la dirección "www.miEmpresa.com".
 
-+ Comprobaremos  la instalación correcta de PHP colocando un fichero index.php en el sitio web destinado
-a gestionar el CMS Drupal (www.miEmpresa.com
++ Comprobaremos  la instalación correcta de PHP colocando un fichero index.php en el sitio web destinado a gestionar el CMS Drupal (www.miEmpresa.com)
 
-+ Comprobaremos  la instalación correcta de PHP colocando un fichero index.php en el sitio web destinado
-  a gestionar el CMS Drupal (www.miEmpresa.com ó miEmpresa\principal) con el siguiente código:
-  <?php phpinfo(); ?>
-
-+ Crearemos un sitio web denominado "pagos" como subdominio de miEmpresa (pagos.miEmpresa.com) y configuraremos este último para ser accedido de forma segura, vía ‘https’ con un certificado autofirmado.
-
-+ instalaremos el servidor de bases de datos relacionales MySQL
-
++ Crearemos varios sitios webs como subdominios de miEmpresa para hacer un certificado autofirmado, un acceso con identificación requerida y para acceder a phpmyadmin y cms con drupal.
 
 # Apache Linux
 
