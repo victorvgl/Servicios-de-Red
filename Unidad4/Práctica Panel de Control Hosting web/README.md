@@ -60,7 +60,7 @@
 
 ![imagen](./img/08.png)
 
-#### 2.1 Apache desde Webmin
+### 2.1 Apache desde Webmin
 
 + En la opción Apache Webserver, podemos editar las opciones del servidor. Nos mostrará la configuración global, podremos ver los host virtuales que ya tenemos creado, añadir usuarios y grupos, etc...
 
@@ -70,7 +70,7 @@
 
 ![imagen](./img/011.png)
 
-#### 2.2 MySQL desde Webmin
+### 2.2 MySQL desde Webmin
 
 + Podremos acceder a nuestra base de datos desde webmin con cualquier usuario creado en esta o como administrador.
 
@@ -82,7 +82,7 @@
 ![imagen](./img/014.png)
 
 
-#### 2.3 DNS Server desde webmin
+### 2.3 DNS Server desde webmin
 
 + Cuando vamos a la pestaña **Bind DNS Server** encontraremos los distintos dominios creados en el servidor como por ejemplo miempresa.edu. Accederemos a él desde webmin.
 
@@ -110,7 +110,7 @@
 
 + Desde webmin podremos editar, crear, borrar desde un entorno gráfico como si estuvieramos desde la misma consola del servidor.
 
-#### 2.4 Diferentes opciones de Webmin
+### 2.4 Diferentes opciones de Webmin
 
 + Desde webmin, a parte de administrar nuestras aplicaciones, podemos crear módulos para instalar estas aplicaciones automaticamente desde la misma plataforma. Tiene muchas posibilidades y podemos ver los recursos del servidor, añadir particiones etc...
 
