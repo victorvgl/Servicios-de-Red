@@ -16,7 +16,7 @@
 
 ### [Instalación de Webmin](#1)
 
-+ Instalaremos en nuestro servidor Ubuntu `Webmin`una herramienta de configuración de sistemas accesible vía web para sistemas Unix, como GNU/Linux y OpenSolaris, GNU/Linux. Con él se pueden configurar aspectos internos de muchos sistemas operativos, como usuarios, cuotas de espacio, servicios, archivos de configuración, apagado del equipo, etc, así como modificar y controlar muchas aplicaciones libres, como el servidor web Apache, PHP, MySQL, DNS, Samba, DHCP, entre otros.
++ Instalaremos en nuestro servidor Ubuntu `Webmin`, una herramienta de configuración de sistemas accesible vía web para sistemas Unix, como GNU/Linux y OpenSolaris, GNU/Linux. Con él se pueden configurar aspectos internos de muchos sistemas operativos, como usuarios, cuotas de espacio, servicios, archivos de configuración, apagado del equipo, etc, así como modificar y controlar muchas aplicaciones libres, como el servidor web Apache, PHP, MySQL, DNS, Samba, DHCP, entre otros.
 
   Por defecto **se comunica mediante TCP a través del puerto 10000**, y puede ser configurado para usar SSL si OpenSSL está instalado con módulos de Perl adicionales requeridos.
 
@@ -27,7 +27,7 @@
 + Configuraremos la herramienta y mostraremos los múltiples usos y posibilidades para gestionar, modificar y controlar las aplicaciones instaladas en prácticas anteriores como PHP, MySQL, DNS etc...
 
 
-# 1. Descarga e instalación de Webmin en Ubuntu
+# <a name="1"></a> 1. Descarga e instalación de Webmin en Ubuntu
 
 + Nos descargamos el instalador del siguiente [Enlace](http://www.webmin.com/download.html)
 
@@ -54,7 +54,7 @@
 
 ![imagen](./img/07.png)
 
-# 2. Configuración y uso de Webmin
+# <a name="2"></a> 2. Configuración y uso de Webmin
 
 + Vamos a administrar las aplicaciones de prácticas anteriores por lo que vamos a la pestaña **Servers** y podemos ver que automaticamente, nos detecta nuestro Apache, Dns, Mysql.
 
