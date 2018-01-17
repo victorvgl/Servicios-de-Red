@@ -16,7 +16,7 @@
 
 ## [ Práctica de Instalación y Configuración del Servicio FTP en Linux Ubuntu](#2)
 
-+ Instalaremso el servicio SSH en el servidor Linux.
++ Instalaremos el servicio SSH en el servidor Linux.
 
 + Crearemos dos usuarios con diferentes niveles y privilegios de acceso al fylesystem.
 
