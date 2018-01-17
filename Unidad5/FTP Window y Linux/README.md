@@ -183,44 +183,44 @@ a cada uno y así poder entrar a los tres sin necesidad de parar ninguno.
 
 + Instalamos el Servicio **SSH** `apt-get install ssh`.
 
-![imagen](./img2/001.png)
+![imagen](./img/043.png)
 
 + Creamos dos cuentas de usuarios con diferentes privilegiso y niveles de acceso al filesystem.
 
-![imagen](./img2/002.png)
+![imagen](./img/044.png)
 
 + Comprobamos que podemos acceder con el usuario1 al servidor por SSH.
 
-![imagen](./img2/003.png)
+![imagen](./img/045.png)
 
 + Comprobamos que podemos acceder con el usuario2 al servidor por SSH.
 
-![imagen](./img2/004.png)
+![imagen](./img/046.png)
 
 + Comprobamos que podemos lanzar una aplicación a través de SSH desde el servidor hacia Linux.
 
-![imagen](./img2/005.png)
+![imagen](./img/047.png)
 
 + Comprobamos que podemos acceder y obtener un archivo por `sftp` desde el usuario1.
 
-![imagen](./img2/007.png)
+![imagen](./img/048.png)
 
 + Comprobamos que podemos acceder y obtener un archivo por `sftp` desde el usuario2.
 
-![imagen](./img2/008.png)
+![imagen](./img/049.png)
 
 + Comprobamos que podemos subir un archivo por `scp` desde el usuario1 y usuario2.
 
-![imagen](./img2/009.png)
-![imagen](./img2/010.png)
+![imagen](./img/050.png)
+![imagen](./img/051.png)
 
 + Instalamos el paquete **proftpd** `apt-get install proftpd`
 
-![imagen](./img2/011.png)
+![imagen](./img/052.png)
 
 + El fichero de configuración se encuentra en la ruta `/etc/proftpd` y es el fichero que modificaremos según las necesidades que queramos.
 
-![imagen](./img2/012.png)
+![imagen](./img/053.png)
 
 + Algunos parámetros a modificar del archivo de configuración.
 
@@ -234,11 +234,11 @@ a cada uno y así poder entrar a los tres sin necesidad de parar ninguno.
 
 + Comprobamos que podemos acceder con el usuario1 y usuario2.
 
-![imagen](./img2/014.png)
+![imagen](./img/054.png)
 
 + Comprobamos que podemos subir un archivo por ftp.
 
-![imagen](./img2/015.png)
-![imagen](./img2/016.png)
+![imagen](./img/055.png)
+![imagen](./img/056.png)
 
 ---
