@@ -291,7 +291,7 @@ srd.edu
 
 ### Lista de distribución
 
-+ Vamos hacer otra prueba con una lista de distribución. Crearemos una lista y añadiremos a esta la configuración y los usuarios de correo que queramos redirigir el correo entrante de la lista.
++ Vamos hacer otra prueba con una lista de distribución. Crearemos una lista y añadiremos a esta la configuración y los usuarios de correo que queramos para redirigir el correo entrante a estos.
 
 ![imagen](./img2/032.png)
 
@@ -299,39 +299,19 @@ srd.edu
 
 ![imagen](./img2/033.png)
 
-+ Hacmeos una prueba mandado un correo a `empleados@asir.edu` que es el nombre de la lista que he creado con los usuarios victor@asir.edu y alfon@asir.edu.
++ Hacemos una prueba mandado un correo a `empleados@asir.edu` que es el nombre de la lista que he creado con los usuarios victor@asir.edu y alfon@asir.edu.
 
 ![imagen](./img2/034.png)
 ![imagen](./img2/035.png)
 
-+ Mandado un correo de prueba, automaticamente nos llega a los usuarios añadidos a la lista.
++ Mandando un correo de prueba, automaticamente nos llega a los usuarios añadidos a la lista.
 
 ![imagen](./img2/036.png)
 
 + Comprobamos el contenido y que nos llega correctamente desde `empleados@asir.edu`
 
-![imagen](./img2/037.png)
-
-
-
-![imagen](./img2/038.png)
-
-
-
-![imagen](./img2/039.png)
-
-
-
-![imagen](./img2/040.png)
-
-
-
+usuario victor
 ![imagen](./img2/041.png)
 
-
-
+usuario alfon
 ![imagen](./img2/042.png)
-
-
-
-![imagen](./img2/043.png)
