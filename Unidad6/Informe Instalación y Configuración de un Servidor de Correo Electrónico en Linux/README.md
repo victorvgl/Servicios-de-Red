@@ -37,29 +37,30 @@
 
 ![imagen](./img/005.png)
 
-+  Añadimos 
++  Añadimos los usuarios *loli* y *colego* (necesarios para la comprobación del funcionamiento del servicio *smtp*).  
 
 ![imagen](./img/007.png)
 
-+
++  Una vez creados, accedemos al puerto 25 vía *telnet* y mandamos un correo de *loli* a *colego*.  
 
 ![imagen](./img/006.png)
 
-+
++ Para acceder al buzón de *colego*, nos dirigiremos a `/var/spool/mail/` donde podremos comprobar que ha recibido el correo de *loli*.  
 
 ![imagen](./img/008.png)
 
-+
+
++ Nos dirigimos al cliente, e instalamos *evolution* (un gestor de mensajería).  
 
 ![imagen](./img/009.png)
 
-+
-
-![imagen](./img/010.png)
-
-+
++ Establemos los enlaces en el *DNS* local al servidor, los dominios *smtp.miempresa.com* y *pop.miempresa.com*.  
 
 ![imagen](./img/011.png)
+
++ s
+
+![imagen](./img/012.png)
 
 +
 
