@@ -14,44 +14,36 @@
 
 ---
 
-### [](#1)
+### [Instalación de Postfix](#1)
 
-+
-
-### [](#2)
-
-+
-
++ Instalamos *Postfix* con `sudo apt install postfix` y se nos desplegará una ventana de configuración del servicio.  
 
 # <a name="1"></a>
 
-+
+
+![imagen](./img/004.png)  
 
 ![imagen](./img/001.png)
 
-+
++ Escogemos *Sitio de Internet*.
 
 ![imagen](./img/002.png)
 
-+
++ Establecemos *miempresa.com* como dominio del que hará uso *Postfix*.  
 
 ![imagen](./img/003.png)
 
-+
-
-![imagen](./img/004.png)
-
-+
++ Comprobamos con *netstat -utap* que el servicio *smtp* esta en modo escucha.  
 
 ![imagen](./img/005.png)
+
++  Añadimos 
+
+![imagen](./img/007.png)
 
 +
 
 ![imagen](./img/006.png)
-
-+
-
-![imagen](./img/007.png)
 
 +
 
