@@ -73,7 +73,7 @@
 
 ![imagen](./img/013.png)
 
-+ Comprobamos que el servicio esta en escucha con `netstat -utap`.  
++ Comprobamos que el servicio está en escucha con `netstat -utap`.  
 
 ![imagen](./img/014.png)
 
@@ -81,7 +81,7 @@
 
 ![imagen](./img/015.png)
 
-+ Nos dirigimosa `/etc/apache2/sites-available` y establecemos las siguientes líneas de texto en *apache.conf*.  
++ Nos dirigimos a `/etc/apache2/sites-available` y establecemos las siguientes líneas de texto en *apache.conf*.  
 
 ![imagen](./img/017.png)
 
@@ -114,10 +114,10 @@
 
 ![imagen](./img/024.png)
 
-+ Comprobamos que esta en modo escucha con el comando `netstat -puta`.  
++ Comprobamos que está en modo escucha con el comando `netstat -puta`.  
 
 ![imagen](./img/025.png)
 
-+ Nos aseguramos que la linea *disable_plaintext_auth* del fichero `/etc/dovecot/conf.d` sea igual a *no*.   
++ Nos aseguramos que la línea *disable_plaintext_auth* del fichero `/etc/dovecot/conf.d` sea igual a *no*.   
 
 ![imagen](./img/026.png)
