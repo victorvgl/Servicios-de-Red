@@ -120,4 +120,6 @@
 
 + Nos aseguramos que la línea *disable_plaintext_auth* del fichero `/etc/dovecot/conf.d` sea igual a *no*.   
 
-![imagen](./img/026.png)
+![imagen](./img/026.png)  
+
+Por motivos aún desconocidos, el *evolution* o el *postfix* nos han dado bastantes problemas a la hora de enviar correos a cuentas de gmail, hecho que no nos ha permitido terminar la prática.
